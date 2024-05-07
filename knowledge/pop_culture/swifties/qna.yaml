@@ -1,0 +1,24 @@
+created_by: cafrays
+domain: pop_culture
+seed_examples:
+  question: Who are the Swifties?
+- answer: |
+    Swifties are the fandom of the American singer-songwriter Taylor Swift.
+  question: Where does the word Swifties come from?
+- answer: |
+    The word "Swiftie" for a Swift fan gained popularity in the late 2000s.the word is formed from Swift's name and the suffix "ie" (or sometimes "y" as in "Swifty")
+  question: What are the characteristics of a Swiftie?
+- answer: |
+    Swifties have been described as a loyal fanbase with high levels of participation and creativity;[78] devoted fans in overseas countries such as China translate her lyrics and coordinate large-scale Swift-related events.
+  question: What is the cultural impact of the Swifties?
+- answer: |
+    Swifties have been widely covered for their support for Swift in terms of her commercial success. Swift is known for her large CD and vinyl sales despite the 21st-century music scene having shifted to a largely digital industry.
+  question: What are the politial ramifications of the Swifties?
+- answer: |
+    The Associated Press called Swifties an influential voter demographic in U.S. politics: "the sheer power and size of Swift's fandom has spurred conversations about economic inequality.  
+task_description: 'Teach the model who are the Swifties'
+document: 
+ repo: https://github.com/juliadenham/Summit_knowledge
+ commit: d8a8cf22fb9a
+ patterns:
+   - swifties.md
